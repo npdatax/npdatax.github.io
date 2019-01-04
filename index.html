@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/ico" href="img/alu.ico"/>
-    <meta name="title" content="NDA">
-    <meta itemprop="name" content="NDA">
-    <meta property="og:title" content="NDA">
+    <meta name="title" content="CaseOLAP">
+    <meta itemprop="name" content="CaseOLAP">
+    <meta property="og:title" content="CaseOLAP">
     <meta name="description"
-          content="NDA">
+          content="CaseOLAP">
     <meta itemprop="description"
-          content="NDA">
+          content="CaseOLAP">
     <meta id="meta-tag-description" property="og:description"
-          content="NDA">
+          content="CaseOLAP">
 
 
-    <title>NDA</title>
+    <title>CaseOLAP</title>
 
 
-    
+    <meta itemprop="image"
+          content="https://avatars3.githubusercontent.com/u/41661812?s=400&u=094ffc3c6cfe28f1908dfe1c0eca1602abe7219b&v=4">
+    <meta property="og:image"
+          content="https://avatars3.githubusercontent.com/u/41661812?s=400&u=094ffc3c6cfe28f1908dfe1c0eca1602abe7219b&v=4">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
           integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/introduce.css" />
 
- 
+
+   
     
 
 
@@ -36,62 +38,40 @@
 <body>
 
 <!--About Us -->
-    
-<div id="about">
-  <div class = "hd">
-    <h1> <a href="https://www.npdatax.github.io"><span class="fa fa-bank" style="font-size:50px;color:green"></span></a>
-     <h1> <span class="fa fa-group" style="color:green"></span> Network and Complex System <span class="fa fa-pencil-square" style="color:green"></span> </h1>
-  </div>
-</div>   
-    
-    
+
+
 <div id="aboutUs">
     <div class="container">
         <div class="row">
-            <div class="page-header"><h3> Network and Complex System Algorithms </h3></div> 
+            <div class="page-header"><h1>CaseOLAP Workflow</h1></div>
             <div class="col-md-7">
                 <p>
-                    Welcome to Network and Complex System Lab. Our main goal in this project is to make you familiar with 
-                    Application of Data Science Tools and Machine Learning Algorithms to study Network and Complex System. 
-                    We will use NetworkX package in Python for small network, Neo4J as BigData tool for large network and 
-                    Javascript (D3.js) as our network Visualization tool.
-                    
+                    The Context-aware Semantic Online Analytical Processing pipeline (CaseOLAP), was developed in 2016 by Fangbo Tao et.al. CaseOLAP successfully quantifies user-defined phrase-category relationships through analysis of textual data.
                 </p>
-                 <ul>
-                    <li> Get familiar with NetworkX  </li>
-                    <li> Get familiar with Neo4j  </li>
-                     <li> Get familiar with D3.js  </li>
-                </ul>
-                
+                 <p>
+                    CaseOLAP workflow presents data preprocessing (i.e., downloading and parsing text documents), indexing and searching with Elasticsearch, creating a functional document structure called Text-Cube and quantifying phrase-category relationships using the core CaseOLAP algorithm. 
+                </p>
                 <p>
-                <h3> Toy Model of Corruption Detection</h3> 
-                This is a toy model over a simulated data under a typical 
-                     bureaucratic and political scenario.
-                    The model will use the method of Deep learning (Machine learning) and network embedding method to train
-                     over the data and produce a
-                    prediction algorithm. THis model is completed in two part.
-                   <ul>
-                       <li> In the first part, the data simulator will
-                           create the hypothetical network data and the model will 
-                           systematically study(training a model)  the networking and activities of the member 
-                    up to the nth degree(based on computational power available) of relationship in the graph. 
-                    For example, a politician's relative/friends get
-                    an abrupt increase in property value will add the probability to the politician be corrupted.
-                     THis model 
-                       assumes that all member's property is accounted at the beginning and runs the simulation for 
-                           next 10 years
-                     where as in the runtime the algorithm is built.</li> 
-                       <li> In the second run of the simulation, them model accuracy will be tested. It will start 
-                           the detection of corrupted persion from the simulated network.</li>
-                </ul>
-                 <p>   
-                    
+                    Data preprocessing generates key-value pairs for all documents involved. As an example, a key may refer to the document PMID, while a value may refer to different document metadata. Preprocessed data is rearranged by indexing and searching for an entity count, which further facilitates the CaseOLAP score calculation. Obtained raw CaseOLAP results can be taken to integrative analysis including dimensionality reduction, clustering, temporal and geographical analysis, as well as the creation of a graphical database which enables semantic mapping of the documents . 
+                </p>
                 
             </div>
             <div class="col-md-4 col-md-offset-1">
-                <h2>View Networks</h2>
+                <h2>Pipelines</h2>
                 <ul>
-                    <li> <a href="samples/sample0.html" target="_blank"> Sample 1 </a> </li>
+                    <li> <a href="pipelines/Download.html" target="_blank"> Downloading and Data Extraction </a> </li>
+                    <li> <a href="pipelines/Parsing.html" target="_blank"> Data Parsing Pipeline </a> </li>
+                    <li> <a href="pipelines/Indexing.html" target="_blank"> Indexing and Search with Elasticsearch</a></li>
+                    <li> <a href="pipelines/TextCube.html" target="_blank"> Text-Cube Creation </a></li>
+                    <li> <a href="pipelines/EntityCount.html" target="_blank"> Entity Count </a></li>
+                    <li> <a href="pipelines/CaseOLAP.html" target="_blank"> CaseOLAP Calculation </a> </li>
+                </ul>
+                <h2>Data Samples</h2>
+                <ul>
+                    <li> <a href="data/extracted-data-sample.xml" target="_blank"> Extracted Data Sample </a> </li>
+                    <li> <a href="data/parsed-data-sample.json" target="_blank"> Parsed Data Sample </a> </li>
+                    <li> <a href="data/age-group-sample.csv" target="_blank"> Age group CaseOLAP score Sample </a> </li>
+                    <li> <a href="data/PMID-to-entity-count-mapping-sample.txt" target="_blank"> PMID to entity count mapping Sample </a> </li>
                 </ul>
             </div>
         </div>
@@ -99,9 +79,6 @@
 </div>
 
 
-    
- 
-    
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
