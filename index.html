@@ -4,19 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/ico" href="img/alu.ico"/>
-    <meta name="title" content="CaseOLAP">
-    <meta itemprop="name" content="CaseOLAP">
-    <meta property="og:title" content="CaseOLAP">
+    <link rel="shortcut icon" type="image/ico" href="img/nda.ico"/>
+    <meta name="title" content="NDA">
+    <meta itemprop="name" content="NDA">
+    <meta property="og:title" content="NDA">
     <meta name="description"
-          content="CaseOLAP">
+          content="NDA">
     <meta itemprop="description"
-          content="CaseOLAP">
+          content="NDA">
     <meta id="meta-tag-description" property="og:description"
-          content="CaseOLAP">
+          content="NDA">
 
 
-    <title>CaseOLAP</title>
+    <title>NDA</title>
 
 
     <meta itemprop="image"
@@ -43,35 +43,62 @@
 <div id="aboutUs">
     <div class="container">
         <div class="row">
-            <div class="page-header"><h1>CaseOLAP Workflow</h1></div>
+            <div class="page-header"><h1>NDA Projects</h1></div>
             <div class="col-md-7">
                 <p>
-                    The Context-aware Semantic Online Analytical Processing pipeline (CaseOLAP), was developed in 2016 by Fangbo Tao et.al. CaseOLAP successfully quantifies user-defined phrase-category relationships through analysis of textual data.
+                    <b> Migration : </b> In this project, we will focus on temporal analysis from past years to present on mass migration, 
+                    brain drain, and other movements. Based on skills that the young generation are gaining, 
+                    we can predict when the incoming generation will be capable of bringing transformation to Nation.   
                 </p>
                  <p>
-                    CaseOLAP workflow presents data preprocessing (i.e., downloading and parsing text documents), indexing and searching with Elasticsearch, creating a functional document structure called Text-Cube and quantifying phrase-category relationships using the core CaseOLAP algorithm. 
+                     <b> Corruption : </b> This project will use the simulator to create hypothetical data under a typical social, 
+                     bureaucratic and political scenario. Simulated data will be used to create a complex network. 
+                     Using Machine Learning techniques in the complex system, a corruption detection algorithm will
+                     be developed. The model will systematically study the networking and activities of the member 
+                     up to the nth degree of relationship in the graph. For example, a politician's relative/friends 
+                     within a sphere of influence, get an abrupt increase in property value will add the probability 
+                     to the politician being corrupted.
                 </p>
                 <p>
-                    Data preprocessing generates key-value pairs for all documents involved. As an example, a key may refer to the document PMID, while a value may refer to different document metadata. Preprocessed data is rearranged by indexing and searching for an entity count, which further facilitates the CaseOLAP score calculation. Obtained raw CaseOLAP results can be taken to integrative analysis including dimensionality reduction, clustering, temporal and geographical analysis, as well as the creation of a graphical database which enables semantic mapping of the documents . 
+                    <b> Smart Governance : </b> We will use both simulation and Machine Learning. This will be a toy model of sustainable development
+                    including entrepreneurship, health, and education. We will take a small population and recognize the 
+                    most contributing features for example production, market value, public interest, cultural value, etc. 
+                    Using a simulator, we will generate hypothetical entrepreneurship opportunity and integrate hypothetical
+                    health insurance and student loan in a single model. Features designed in the model are feed into a
+                    mathematical model for evolutionary simulation purpose. We will select a time frame of 5 to 10 years 
+                    and view how a selection of different parameters controls the economic growth of the population. 
+                    The result of this model will give us the idea of how can a community improve their financial condition
+                    along with secure health and education through entrepreneurship.
                 </p>
-                
+                <p>
+                    <b> Budget and Expenditure : </b> In this project, we will focus on National Budget Data. There are some 
+                    impressive data structure in governmental data blend with the bureaucratic tree structure. Based on past
+                    data on plan and expenditure, an AI-based algorithm can be developed to track how efficiently the government
+                    is making in the future budget.
+                </p>
+                <p>
+                    <b> Population Census: </b> We will study open data available on population census and other exciting data regarding the temporal and spatial relationship. 
+                    The study of poverty, literacy and time evolution of political attitude of large mass can be studied.
+                </p>
+                    
+                    
+                    
             </div>
             <div class="col-md-4 col-md-offset-1">
                 <h2>Pipelines</h2>
                 <ul>
-                    <li> <a href="pipelines/Download.html" target="_blank"> Downloading and Data Extraction </a> </li>
-                    <li> <a href="pipelines/Parsing.html" target="_blank"> Data Parsing Pipeline </a> </li>
-                    <li> <a href="pipelines/Indexing.html" target="_blank"> Indexing and Search with Elasticsearch</a></li>
-                    <li> <a href="pipelines/TextCube.html" target="_blank"> Text-Cube Creation </a></li>
-                    <li> <a href="pipelines/EntityCount.html" target="_blank"> Entity Count </a></li>
-                    <li> <a href="pipelines/CaseOLAP.html" target="_blank"> CaseOLAP Calculation </a> </li>
+                    <li> <a href="https://npdatax.github.io/migration/index.html" target="_blank"> Migration </a> </li>
+                    <li> <a href="https://npdatax.github.io/corruption/index.html" target="_blank"> Corruption </a> </li>
+                    <li> <a href="https://npdatax.github.io/governance/index.html" target="_blank"> Governance </a></li>
+                    <li> <a href="https://npdatax.github.io/census/index.html" target="_blank"> Census </a></li>
+                    <li> <a href="https://npdatax.github.io/budget/index.html" target="_blank"> Budget </a></li>
                 </ul>
                 <h2>Data Samples</h2>
                 <ul>
-                    <li> <a href="data/extracted-data-sample.xml" target="_blank"> Extracted Data Sample </a> </li>
-                    <li> <a href="data/parsed-data-sample.json" target="_blank"> Parsed Data Sample </a> </li>
-                    <li> <a href="data/age-group-sample.csv" target="_blank"> Age group CaseOLAP score Sample </a> </li>
-                    <li> <a href="data/PMID-to-entity-count-mapping-sample.txt" target="_blank"> PMID to entity count mapping Sample </a> </li>
+                    <li> <a href="data/migration.json" target="_blank"> Migration data </a> </li>
+                    <li> <a href="data/corruption.json" target="_blank"> Corruption data </a> </li>
+                    <li> <a href="data/contract.json" target="_blank"> Smart Contract </a> </li>
+                    <li> <a href="data/budget.csv" target="_blank"> Budget data </a> </li>
                 </ul>
             </div>
         </div>
