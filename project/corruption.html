@@ -523,7 +523,7 @@ function createSlider() {
             stop();
         }
     })
-    
+
     slider = sliderContainer.createChild(am4core.Slider);
     slider.valign = "middle";
     slider.margin(0, 0, 0, 0);
@@ -940,6 +940,11 @@ chart.data = [{ "time": "2018-01-13 06:00", "value": 0 },
 
 
 
+</head>
+<body>
+
+
+
 
 <!-- Navbar 2-->
 <nav id="navigationBar" class="navbar navbar-inverse navbar-fixed-top">
@@ -954,9 +959,9 @@ chart.data = [{ "time": "2018-01-13 06:00", "value": 0 },
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#aboutUs" style="color:white">WHO</a> </li>
-        <li><a href="#trainingSyllabus" style="color:white" >WHAT</a></li>
-        <li><a href="#projects" style="color:white">WHERE</a></li>
+        <li><a href="#aboutUs" style="color:white">About Project</a> </li>
+        <li><a href="#trainingSyllabus" style="color:white" > Timeline </a></li>
+        <li><a target="_blank" href="https://npdatax.github.io/admin" style="color:white">Admin</a></li>
       </ul>
     </div>
   </div>
@@ -972,32 +977,32 @@ chart.data = [{ "time": "2018-01-13 06:00", "value": 0 },
             <div class="col-md-7">
                 <p>
                   This project will build a model over a simulated data under a typical bureaucratic and political scenario.
-                  The simulated data will be stored in the Neo4J graphical database.The model will use the method of Deep 
-                  learning (Machine learning) to train over the data and produce prediction algorithm. The model will 
-                  systematically study the networking and activities of the member up to the 10th degree of relationship 
+                  The simulated data will be stored in the Neo4J graphical database.The model will use the method of Deep
+                  learning (Machine learning) to train over the data and produce prediction algorithm. The model will
+                  systematically study the networking and activities of the member up to the 10th degree of relationship
                   in the graph. For example, a politician's relative/friends get an abrupt increase in property value will
                   add the probability to the politician be corrupted.
  </p>
 
  <p>
-                 <b> Simulation : </b> This project is based on simulated data of people working in the current beuracratic 
+                 <b> Simulation : </b> This project is based on simulated data of people working in the current beuracratic
                   and social structure in the country. Once a data structure of all major brances (e.g. government officers,
-                  politicians, teachers, professors, business persons, security officers) are created, a randomly generated 
+                  politicians, teachers, professors, business persons, security officers) are created, a randomly generated
                   purchase/transection/expenditure data will be created. This data will include message, bank transection,
                   daily expenditure etc.
  </p>
 
  <p>
-                 <b> Implementation of Graphical Database (Neo4j) : </b> The simulated data is rich in network and graph 
-                structure. Neo4J provides a best platform to operate over such graphical data. The simulated data can be 
+                 <b> Implementation of Graphical Database (Neo4j) : </b> The simulated data is rich in network and graph
+                structure. Neo4J provides a best platform to operate over such graphical data. The simulated data can be
                 directly visualized using ne04j API and numerious graph algorithm can be implemented to investigate over
-                sample data. Smoe nodes(persons) are intentionally made corrupted in the simulated data by adding extra 
+                sample data. Smoe nodes(persons) are intentionally made corrupted in the simulated data by adding extra
                 expenditure pattern.
  </p>
-              
+
   <p>
-                 <b> Deep learning : </b> Graphical data can be converted to vectorized data by implementing node2vect. 
-              A node will be represented by a vector and deep neural network will be created to train the model over 
+                 <b> Deep learning : </b> Graphical data can be converted to vectorized data by implementing node2vect.
+              A node will be represented by a vector and deep neural network will be created to train the model over
               labeled data. Once the model is ready, we can test the performace of the model by test data.
 
  </p>
@@ -1014,10 +1019,10 @@ chart.data = [{ "time": "2018-01-13 06:00", "value": 0 },
             <div class="col-md-4 col-md-offset-1">
                 <h4> Other Projects </h4>
                 <ul>
-                   <li> <a target="_blank" href="https://npdatax.github.io/syllabus/project/migration.html"> Migration </a>  </li>
-                    <li> <a target="_blank" href="https://npdatax.github.io/syllabus/project/budget.html"> Budget </a>  </li>
-                   <li> <a target="_blank" href="https://npdatax.github.io/syllabus/project/governance.html"> Smart Governance </a>  </li>
-                   <li> <a target="_blank" href="https://npdatax.github.io/syllabus/project/contract.html"> Smart Contracts </a>  </li>
+                   <li> <a target="_blank" href="https://npdatax.github.io/project/migration.html"> Migration </a>  </li>
+                    <li> <a target="_blank" href="https://npdatax.github.io/project/budget.html"> Budget </a>  </li>
+                   <li> <a target="_blank" href="https://npdatax.github.io/project/governance.html"> Smart Governance </a>  </li>
+                   <li> <a target="_blank" href="https://npdatax.github.io/project/contract.html"> Smart Contracts </a>  </li>
                    <li> Popultion Census  </li>
                 </ul>
             </div>
