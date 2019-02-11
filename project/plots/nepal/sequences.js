@@ -8,6 +8,16 @@ var b = {
   w: 150, h: 30, s: 3, t: 10
 };
 
+var lcolors = {
+  "PN1": "#5687d1",
+  "PN2": "#7b615c",
+  "PN3": "#de783b",
+  "PN4": "#6ab975",
+  "PN5": "#a173d1",
+  "PN6": "#bb3bbb",
+  "PN7": "#bbb27b"
+};
+
 // Mapping of step names to colors.
 var colors = {
   "PN1": "#5687d1",
@@ -294,10 +304,10 @@ function drawLegend() {
 
   var legend = d3.select("#legend").append("svg:svg")
       .attr("width", li.w)
-      .attr("height", d3.keys(colors).length * (li.h + li.s));
+      .attr("height", d3.keys(lcolors).length * (li.h + li.s));
 
   var g = legend.selectAll("g")
-      .data(d3.entries(colors))
+      .data(d3.entries(lcolors))
       .enter().append("svg:g")
       .attr("transform", function(d, i) {
               return "translate(0," + i * (li.h + li.s) + ")";
