@@ -65,7 +65,7 @@ d3.csv("nepaltree.csv", function(error, data) {
       .attr("transform", function(d) { return "translate(" + radialPoint(d.x, d.y) + ")"; });
 
   node.append("circle")
-      .attr("r", 8)
+      .attr("r", 4)
       .style("fill", function (d) { return '#1f77b4'; });
       
 
