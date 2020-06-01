@@ -1,0 +1,19 @@
+#about{
+  position:relative;
+  background-color: #CAC0F9;
+  font-size: 1.0em;
+  width:100%;
+  padding: 10px;
+  padding-bottom:20px;
+}
+.hd{
+	text-align: center;
+}
+.pr{
+	margin-top: 10px;
+    margin-bottom: 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+	font-size: 0.9em;
+	padding: 20px;
+}
